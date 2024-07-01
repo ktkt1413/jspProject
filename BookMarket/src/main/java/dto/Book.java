@@ -17,6 +17,7 @@ private static final long serialVersionUID = -4274700572038677000L;
 	private long unitsInStock;
 	private String releaseDate;
 	private String condition;
+	private String filename;
 	
 	
 	public Book() {
@@ -115,6 +116,12 @@ private static final long serialVersionUID = -4274700572038677000L;
 		return serialVersionUID;
 	}
 	
+	public String getFilename() {
+		return filename;
+	}
 	
+	public void setFilename(String filename) {
+		this.filename = filename;
+	}
 	
 }
